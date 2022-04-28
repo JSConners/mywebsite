@@ -9,7 +9,7 @@ import "bootstrap"
 <template>
 
   <header>
-    <img class="logo" src="./assets/james&cam.png" alt="James and Camille 1" width="300" />
+    <img class="logo" src="./assets/james&cam.jpg" alt="James and Camille 1" width="300" />
     <div class="wrapper">
       <Intro msg="James Conners" />
     </div>
