@@ -23,10 +23,10 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Research</template>
+    <template #heading><a href="#pubs"><u>Research</u></a></template>
 
  My area of research is in <em> Usable and Systems Security.</em> I mostly work in authentication (<em>replacing passwords</em>). 
- More about my password replacement research can be found here: <a href="https://letsauth.org" target="_blank">Let's Authenticate</a>
+ More about my password replacement research can be found here: <a href="https://letsauth.org" target="_blank">Let's Authenticate</a>. 
   </WelcomeItem>
 
   <WelcomeItem>
@@ -35,7 +35,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Resume</template>
     This summer I am interning at Sandia National Laboratories in Albuquerque, NM! I will be working with the Center for Cyber Defenders. 
-    // You can check out the rest of my resume here: <a href="./../assets/resume.pdf" download="JamesConnersResume.pdf">Resume</a>
+    You can check out the rest of my resume here: <a target="_blank" href="./assets/resume.pdf">Resume</a>
 
 
   </WelcomeItem>
@@ -44,14 +44,18 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Socials</template>
+    <template #heading>Contact Me!</template>
 
     You can find me at:
 
     <br>
     <div class="center">
-   <img alt="twitter logo" src="./../assets/twitter.png" width="20"> &nbsp
+   <img alt="twitter logo" src="./../assets/twitter.png" width="20"/> &nbsp
    <a target="_blank" href="https://twitter.com/ghostshell1988">@ghostshell1988</a>
+   </div>
+   <div class="center">
+    <img alt="email" src="./../assets/emailicon.png" width="25"/>&nbsp
+    <a target="-blank" href="mailto: jconners0988@gmail.com">jconners0988@gmail.com</a>
    </div>
   </WelcomeItem>
 </template>
