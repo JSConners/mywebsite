@@ -2,11 +2,14 @@
 import Intro from './components/Intro.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Research from './components/Research.vue'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
 </script>
 
 <template>
+
   <header>
-    <img alt="James and Camille 1" class="logo" src="./assets/photos-1.jpg" width="300" />
+    <img class="logo" src="./assets/james&cam.png" alt="James and Camille 1" width="300" />
     <div class="wrapper">
       <Intro msg="James Conners" />
     </div>
@@ -32,9 +35,14 @@ header {
   line-height: 1.5;
 }
 
+img{
+  border-radius: 50%;
+}
+
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border: 2px solid #00bd7e;
 }
 
 a,
